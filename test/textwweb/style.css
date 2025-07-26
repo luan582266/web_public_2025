@@ -1,0 +1,50 @@
+.profile-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: #fff;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #ff4d4d;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.title {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.desc {
+  color: #ccc;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #000;
+  border-radius: 50%;
+  line-height: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}

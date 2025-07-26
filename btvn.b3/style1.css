@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(172, 209, 242)
+}
+.login-form {
+
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(48, 38, 38);
+
+}
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 15px 0;
+    border: 1px solid rgb(219, 211, 212);
+    border-radius: 4px;
+    
+}
+.login-form h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.login-form a {
+    color: blue;
+    text-decoration: none;
+}
+.login-form button {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 300px;
+    border-radius: 8px;
+}
+.login-form button:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+.login-form label {
+    margin: 8px 0 10px;
+    display: block;
+    color:rgb(12, 0, 0);
+}
+
