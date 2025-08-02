@@ -1,0 +1,21 @@
+.wrap .item:nth-child(2) {
+    color: rgb(13, 175, 13);
+    background-color:rgb(231, 228, 228);
+
+}
+.wrap .item:nth-child(4) {
+    color: rgb(13, 175, 13);
+    background-color:rgb(224, 219, 219);
+}
+.content {
+    color: red;
+}
+.First {
+    background-color:antiquewhite;
+}
+h1, h2 {
+    font-weight: bold;
+}
+.wrap {
+    font-weight: bold;
+}

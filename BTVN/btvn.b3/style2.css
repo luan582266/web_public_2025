@@ -45,6 +45,7 @@ body {
 }
 .information-form p {
     font-weight: normal;
+    text-align: center;
 }
 .information-form a:hover {
     background-color: black;

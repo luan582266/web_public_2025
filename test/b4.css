@@ -1,0 +1,36 @@
+.content :nth-child(2){
+    color: blue;
+}
+.content :nth-child(3) {
+    color: red;
+}
+.content :nth-child(1) {
+    background-color: yellow;
+}
+.heading + .content {
+    background-color: red;
+}
+.wrap .item:first-child{
+    color: blue;
+}
+.wrap .item:last-child {
+    color: green;
+}
+.wrap .item:not(.not-select) {
+    color: blueviolet;
+}
+button {
+    font-size: 32px;
+    padding: 8px 16px;
+    outline: none;
+}
+button:hover {
+    background: blue;
+    color: blueviolet;
+    cursor: pointer;
+}
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-size-large: 20px;
+}
