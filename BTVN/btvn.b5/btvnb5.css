@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 253, 253);
+    border: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 0 60px;
+}
+ h2 {
+    text-align: center;
+    margin: 40px;
+}
+.home img {
+    height: 40px;
+    margin-right: 8px; 
+}
+.information a {
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 300;
+    color: black;
+}
+.information a:hover {
+    color: orange;
+}
+.hotline {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.phone {
+    padding: 0 20px;
+    text-align: left;
+}
+.phone i {
+    color: rgb(251, 165, 6);
+}
+.phone h4 {
+    font-weight: bold;
+}
+.login a {
+    text-decoration: none;
+    color: black;
+    padding: 0 12px; 
+}
+.login a:hover {
+    color: orange;
+}
+.menu {
+    display: flex;
+    gap: 15px; 
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(245, 248, 251);
+    height: 175px;
+    padding: 30px;
+    margin: 60px;
+    flex-wrap: warp;
+    text-align: center;
+}
+.food img {
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer
+}
+.food a {
+    text-decoration: none;
+    color: black;
+}
+.food a:hover {
+    color: orange;
+}
+.food p {
+    font-weight: bold;
+    font-size: 17px;
+}
+.ds {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 320px;
+}
+.cost {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+.cost button {
+    color: white;
+    background-color: orange;
+    border: none;
+    height: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.cost button:hover {
+    color: black;
+}
+.cost p {
+    color:rgb(232, 153, 153);
+    padding: 5px;
+}
+.cost h5 {
+    font-weight: bold;
+    
+}
