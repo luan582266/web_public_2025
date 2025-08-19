@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+header {
+    width: 100vw;
+    height: 700px;
+    border: 5px solid gray;
+    background-color: rgb(24, 3, 50);
+    background-image: url("phongnen1.png");
+}
+.start {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color:  rgb(24, 3, 50);
+    height: 80px;
+    border-radius: 5px;
+}
+.start a {
+    padding: 20px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.start h1 {
+    padding: 20px;
+}
+.start a:hover {
+    color: white
+}
+.start button {
+    color: white;
+    background-color: blue;
+    border: none;
+    height: 50px;
+    width: 140px;
+    margin: 15px;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+}
+.content h1 {
+    color: white;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.content p {
+    color: white;
+}
+.content input {
+    border-radius: 8px;
+    height: 90px;
+    width: 700px;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 23px;
+}
+.content button {
+     color: white;
+    background-color: blue;
+    border: none;
+    height: 50px;
+    width: 110px;
+    margin: 15px;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    bottom: 40px;
+}
+.menu li {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    bottom: 60px;
+}
+.menu li::after {
+  width: 0;
+  height: 4px;
+  background-color:rgb(97, 32, 248);
+  content: ''; 
+  position:absolute;
+  bottom: 3px;
+  left: 0;
+  transition: width 1s;
+}
+.menu li:hover::after {
+  width: 100%;
+}
